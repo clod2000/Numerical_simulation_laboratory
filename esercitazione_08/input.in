@@ -1,0 +1,31 @@
+1
+0.1
+1
+1
+0
+5
+100
+1000
+0.1
+0.0005
+5
+
+
+
+
+
+
+
+
+
+    ReadInput>> SA //simulated Annealing if !=0, else standard simulation
+    ReadInput>> temp
+    ReadInput>> mu
+    ReadInput>> sigma
+    ReadInput>> xold
+    ReadInput>> delta
+    ReadInput>> nblk
+    ReadInput>> nstep
+    ReadInput>> delta_opt 
+    ReadInput>> delta_temp
+    ReadInput>> temp_rep
