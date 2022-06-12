@@ -6,7 +6,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sat Jun 11 18:45:57 2022
+# Make data base, printed on Sat Jun 11 21:15:10 2022
 
 # Variables
 
@@ -71,7 +71,7 @@ VSCODE_VERBOSE_LOGGING = true
 # environment
 QT_SCALE_FACTOR = 1
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-89ab7865-96ba-4b8e-8cd0-8252f81ba799.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-1266102f-fe78-4f5a-afc3-65285ee19419.sock
 # environment
 VSCODE_CWD = /home/Claudio/simulazione numerica/esercitazione_01
 # environment
@@ -275,9 +275,9 @@ _CE_CONDA =
 
 %.o: %.cpp
 #  recipe to execute (from 'Makefile', line 16):
+ 
 	$(CC) -c $< -o $@ $(CFLAGS)
 
- 
 # 2 implicit rules, 0 (0.0%) terminal.
 
 # Files
@@ -363,12 +363,12 @@ clean:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 36 / storage = 430 B / avg = 11 B
-# current buf: size = 8162 B / used = 430 B / count = 36 / avg = 11 B
+# strcache buffers: 1 (0) / strings = 36 / storage = 431 B / avg = 11 B
+# current buf: size = 8162 B / used = 431 B / count = 36 / avg = 11 B
 
 # strcache performance: lookups = 46 / hit rate = 21%
 # hash-table stats:
 # Load=36/8192=0%, Rehash=0, Collisions=1/46=2%
-# Finished Make data base on Sat Jun 11 18:45:57 2022
+# Finished Make data base on Sat Jun 11 21:15:10 2022
 
  
