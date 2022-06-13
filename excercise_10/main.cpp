@@ -47,7 +47,7 @@ int main(int argc, char* argv[]) {
 */
 
     for(int i{}; i < size; ++i){
-        if(rank == i)                     // Avvio ogni core con un generatore diverso
+        if(rank == i)                     // Starting each core from a different seed
             rnd.StartGenMPI(rank +1);
     }
  
@@ -98,7 +98,7 @@ int main(int argc, char* argv[]) {
         
         P.Sort_for_L();
        // cerr<<"checkpoint L "<<endl;
-        P.Try_Crossover();  // il crossover è implementato in modo da favorire gli elementi all'inizio della matrice
+        P.Try_Crossover();  
         //cerr<<"checkpoint Crossover "<<endl;
         P.Sort_for_L();
        
@@ -107,7 +107,7 @@ int main(int argc, char* argv[]) {
 
 
    
-    /*
+    
         if( j % 30 == 0) {
             for(int nodo{}; nodo < size ; ++nodo){
 
@@ -122,7 +122,7 @@ int main(int argc, char* argv[]) {
                 for(int i{0}; i < 10; ++i)
                     cerr<< x_trans[i] << '\t';
                 cerr<<endl;
-            /
+            */
                 MPI_Bcast(&x_trans.front(), x_trans.size(), MPI_DOUBLE, nodo, MPI_COMM_WORLD);
                 MPI_Bcast(&y_trans.front(), y_trans.size(), MPI_DOUBLE, nodo, MPI_COMM_WORLD);
             /*
@@ -130,7 +130,7 @@ int main(int argc, char* argv[]) {
                 for(int i{0}; i < 10; ++i)
                     cerr<< x_trans[i] << '\t';
                 cerr<<endl;
-            / 
+            */ 
                for(int i{}; i < ncity; ++i){
                     P.Set_el(P.Get_nrows() -1 -nodo, i, 0 ,x_trans[i] );
                     P.Set_el(P.Get_nrows() -1 -nodo, i, 1 ,y_trans[i] );
@@ -140,7 +140,7 @@ int main(int argc, char* argv[]) {
             }
    
         }
-    */
+    
         Pop2 = P;
 
         //if( j == numgen -1) P.SaveMatrix("lastpop.dat");
