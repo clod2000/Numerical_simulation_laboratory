@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Thu Jun  2 14:44:30 2022
+# Make data base, printed on Mon Jun 13 13:15:32 2022
 
 # Variables
 
@@ -67,15 +67,15 @@ XDG_DATA_DIRS = /usr/share/xfce4:/home/Claudio/.local/share/flatpak/exports/shar
 # environment
 ROOTSYS = /home/Claudio/root/build
 # environment
-DBUS_SESSION_BUS_ADDRESS = unix:abstract=/tmp/dbus-CNNQETi52B,guid=db3a05d6534782620b22604e62987cf5
+DBUS_SESSION_BUS_ADDRESS = unix:abstract=/tmp/dbus-zTFQaq7Hhe,guid=1b248a94a758d6e8e2a1098362a6e6fd
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
 QT_SCALE_FACTOR = 1
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-da5b9cec-f4b7-4165-a507-8506fd6d44b0.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-d5c7a8f0-1b7a-4f9c-9664-eb8f1f68855f.sock
 # environment
-VSCODE_CWD = /home/Claudio/simulazione numerica/esercitazione_10
+VSCODE_CWD = /home/Claudio/simulazione numerica
 # environment
 XDG_SESSION_PATH = /org/freedesktop/DisplayManager/Session0
 # default
@@ -83,11 +83,11 @@ MAKE_HOST := x86_64-pc-linux-gnu
 # environment
 PATH = /home/Claudio/anaconda3/bin:/home/Claudio/anaconda3/condabin:/home/Claudio/root/build/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/sbin:/usr/sbin
 # environment
-SESSION_MANAGER = local/mx:@/tmp/.ICE-unix/3327,unix/mx:/tmp/.ICE-unix/3327
+SESSION_MANAGER = local/mx:@/tmp/.ICE-unix/3224,unix/mx:/tmp/.ICE-unix/3224
 # environment
 XDG_RUNTIME_DIR = /run/user/1000
 # environment
-WINDOWID = 79691779
+WINDOWID = 75497707
 # environment
 CONDA_PREFIX = /home/Claudio/anaconda3
 # environment
@@ -109,7 +109,7 @@ SHLIB_PATH = /home/Claudio/root/build/lib
 # environment
 XDG_SESSION_DESKTOP = lightdm-xsession
 # environment
-SSH_AUTH_SOCK = /tmp/ssh-EhGzdBVI6tMh/agent.3327
+SSH_AUTH_SOCK = /tmp/ssh-RzslLxAy2qDO/agent.3224
 # environment
 CLING_STANDARD_PCH = none
 # automatic
@@ -129,7 +129,7 @@ QT_QPA_PLATFORMTHEME = gtk2
 # environment
 XDG_SEAT = seat0
 # environment
-SSH_AGENT_PID = 3397
+SSH_AGENT_PID = 3316
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = XFCE
 # environment
@@ -249,8 +249,7 @@ LANG = C
 # environment
 TERM = xterm-256color
 # environment
-VSCODE_PID = 12957
- 
+VSCODE_PID = 18795
 # environment
 DYLD_LIBRARY_PATH = /home/Claudio/root/build/lib
 # environment
@@ -264,9 +263,9 @@ _CE_CONDA =
 
 # Directories
 
-# . (device 2055, inode 2101713): 41 files, no impossibilities.
+# . (device 2055, inode 2101713): 42 files, no impossibilities.
 
-# 41 files, no impossibilities in 1 directories.
+# 42 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -278,15 +277,16 @@ move_7_NVE_gas:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
+ 
 #  recipe to execute (from 'Makefile', line 38):
-	mv *.dat ../esercitazione_07/NVE/gas
+	mv *.dat ../excercise_07/NVE/gas
 
 move_7_NVE_liquid:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
 #  recipe to execute (from 'Makefile', line 36):
-	mv *.dat ../esercitazione_07/NVE/liquid
+	mv *.dat ../excercise_07/NVE/liquid
 
 random.o: random.cpp random.h
 #  Implicit rule search has not been done.
@@ -300,21 +300,21 @@ move_4_gas:
 #  Modification time never checked.
 #  File has not been updated.
 #  recipe to execute (from 'Makefile', line 24):
-	mv *.dat ../esercitazione_04/gas
+	mv *.dat ../excercise_04/gas
 
 move_4_liquid:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
 #  recipe to execute (from 'Makefile', line 22):
-	mv *.dat ../esercitazione_04/liquido
+	mv *.dat ../excercise_04/liquido
 
 move_7_NVE_solid:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
 #  recipe to execute (from 'Makefile', line 34):
-	mv *.dat ../esercitazione_07/NVE/solid
+	mv *.dat ../excercise_07/NVE/solid
 
 # Not a target:
 temp_test.cpp:
@@ -334,12 +334,12 @@ move_7_NVT_solid:
 #  Modification time never checked.
 #  File has not been updated.
 #  recipe to execute (from 'Makefile', line 27):
-	mv *.dat ../esercitazione_07/NVT/solid
+	mv *.dat ../excercise_07/NVT/solid
 
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-05-26 14:48:06.878671702
+#  Last modified 2022-06-13 12:12:50.445855965
 #  File has been updated.
 #  Successfully updated.
 
@@ -374,7 +374,7 @@ move_4_solid:
 #  Modification time never checked.
 #  File has not been updated.
 #  recipe to execute (from 'Makefile', line 20):
-	mv *.dat ../esercitazione_04/solido
+	mv *.dat ../excercise_04/solido
 
 # Not a target:
 .DEFAULT:
@@ -393,7 +393,7 @@ move_7_NVT_gas:
 #  Modification time never checked.
 #  File has not been updated.
 #  recipe to execute (from 'Makefile', line 31):
-	mv *.dat ../esercitazione_07/NVT/gas
+	mv *.dat ../excercise_07/NVT/gas
 
 clean:
 #  Implicit rule search has not been done.
@@ -407,7 +407,7 @@ move_7_NVT_liquid:
 #  Modification time never checked.
 #  File has not been updated.
 #  recipe to execute (from 'Makefile', line 29):
-	mv *.dat ../esercitazione_07/NVT/liquid
+	mv *.dat ../excercise_07/NVT/liquid
 
 MD_MC.o: MD_MC.cpp
 #  Implicit rule search has not been done.
@@ -431,12 +431,12 @@ temp_test.exe: temp_test.o random.o
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 57 / storage = 637 B / avg = 11 B
-# current buf: size = 8162 B / used = 637 B / count = 57 / avg = 11 B
+# strcache buffers: 1 (0) / strings = 58 / storage = 641 B / avg = 11 B
+# current buf: size = 8162 B / used = 641 B / count = 58 / avg = 11 B
 
-# strcache performance: lookups = 88 / hit rate = 35%
+# strcache performance: lookups = 89 / hit rate = 34%
 # hash-table stats:
-# Load=57/8192=1%, Rehash=0, Collisions=5/88=6%
-# Finished Make data base on Thu Jun  2 14:44:30 2022
+# Load=58/8192=1%, Rehash=0, Collisions=5/89=6%
+# Finished Make data base on Mon Jun 13 13:15:32 2022
 
  
