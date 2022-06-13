@@ -1,0 +1,6 @@
+make --dry-run --keep-going --print-directory
+make: Entering directory '/home/Claudio/simulazione numerica/esercitazione_09'
+make: Leaving directory '/home/Claudio/simulazione numerica/esercitazione_09'
+ 
+make: *** No rule to make target 'main.cpp', needed by 'main.o'.
+
