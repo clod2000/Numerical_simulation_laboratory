@@ -1,5 +1,0 @@
-make --dry-run --always-make --keep-going --print-directory
-make: Entering directory '/home/Claudio/simulazione numerica/esercitazione_03'
-make main.exe
-make: Leaving directory '/home/Claudio/simulazione numerica/esercitazione_03'
- 

@@ -1,7 +1,0 @@
-make --dry-run --always-make --keep-going --print-directory
-make: Entering directory '/home/Claudio/simulazione numerica/esercitazione_08'
-g++ -c var_MC.cpp -o var_MC.o -Wall -O3 --std=c++11
-g++ -c ../generatore/random.cpp -o random.o -Wall -O3 --std=c++11
-g++ random.o var_MC.o -o var_MC.exe
-make: Leaving directory '/home/Claudio/simulazione numerica/esercitazione_08'
- 
